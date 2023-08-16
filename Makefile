@@ -1,4 +1,4 @@
-DOCKER_HUB_REPOSITORY ?= elasticdog
+DOCKER_HUB_REPOSITORY ?= jdharms
 
 UNIQUE_TAG := $(shell printf '%s.%s' "$$(date +%Y%m%d)" "$${CIRCLE_BUILD_NUM:-$$(git rev-parse --short=12 HEAD)}")
 PATCH_VERSION := $(shell docker run -it --rm tiddlywiki --version | sed 's/[^0-9.]*//g')

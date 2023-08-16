@@ -21,7 +21,7 @@ contributors as well, so if you'd like some guidance or clarification, just
 ask!
 
 [pull requests]: https://help.github.com/articles/using-pull-requests/
-[issue tracker]: https://github.com/elasticdog/tiddlywiki-docker/issues
+[issue tracker]: https://github.com/jdharms/tiddlywiki-docker/issues
 
 Development
 -----------
@@ -88,7 +88,7 @@ Your report should minimally include:
 
 If you have multiple issues, please file separate bug reports.
 
-[open a new issue]: https://github.com/elasticdog/tiddlywiki-docker/issues/new
+[open a new issue]: https://github.com/jdharms/tiddlywiki-docker/issues/new
 
 Conventions
 -----------
@@ -114,5 +114,5 @@ We do include an [.editorconfig file][] in order to facilitate basic formating
 consistency. See the [EditorConfig][] website for details, and to check if your
 preferred text editor is supported.
 
-[.editorconfig file]: https://github.com/elasticdog/tiddlywiki-docker/blob/master/.editorconfig
+[.editorconfig file]: https://github.com/jdharms/tiddlywiki-docker/blob/master/.editorconfig
 [EditorConfig]: http://editorconfig.org/

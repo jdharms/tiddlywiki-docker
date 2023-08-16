@@ -1,10 +1,10 @@
 FROM node:alpine
 
-ENV TIDDLYWIKI_VERSION=5.1.23
+ENV TIDDLYWIKI_VERSION=5.3.0
 
 ARG SOURCE_COMMIT
-LABEL maintainer="Aaron Bull Schaefer <aaron@elasticdog.com>"
-LABEL source="https://github.com/elasticdog/tiddlywiki-docker"
+LABEL maintainer="Daniel Harms <jdharms@gmail.com>"
+LABEL source="https://github.com/jdharms/tiddlywiki-docker"
 LABEL source-commit="${SOURCE_COMMIT:-unknown}"
 
 # https://github.com/nodejs/docker-node/blob/master/docs/BestPractices.md#handling-kernel-signals
